@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+    backend:
+      build: backend/
+      container_name: backend
+      # image: backend:najat
+      # restart: on-failure
+      # env_file:
+      #   - .env
+    # db:
+    # frontend:
