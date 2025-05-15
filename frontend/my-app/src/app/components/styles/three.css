@@ -1,0 +1,29 @@
+/* ThreeScene.css */
+@keyframes scroll-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-150%);
+    }
+  }
+  
+  .scroll-container {
+    position: absolute;
+    bottom: 0; /* Position the container at the bottom */
+    width: 100%;
+    height: 120px; /* Adjust the height as needed */
+    overflow: hidden; /* Hide overflow to ensure scrolling text stays within bounds */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .scroll-text {
+    white-space: nowrap;
+    position: absolute;
+    animation: scroll-left 20s linear infinite;
+    font-size: 2rem; /* Adjust font size as needed */
+    color: white; /* Adjust text color as needed */
+  }
+  

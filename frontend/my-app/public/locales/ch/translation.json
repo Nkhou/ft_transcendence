@@ -1,0 +1,241 @@
+{
+  "welcome": "欢迎",
+  "stats": "统计",
+  "gameHistory": "游戏历史",
+  "globalRank": "全球排名",
+  "Settings": "设置",
+  "movingBanner": "即将举行的比赛 | 查看您的统计数据 | 提升您的游戏技能！",
+  "game_request_accepted": "游戏请求已接受",
+  "game_request_failed": "游戏请求失败",
+  "game_request_sent": "游戏请求已发送",
+  "game_request_rejected": "游戏请求已拒绝",
+  "sending_game_request": "正在发送游戏请求",
+  "both": "两名玩家都必须输入他们的昵称。",
+  "ProfileUpdated": "个人资料已更新",
+  "news": {
+    "Community": "社区聚焦",
+    "description": "认识我们社区的明星！了解我们顶级玩家的成就和故事。",
+    "play": "立即玩",
+    "Tournament": "比赛"
+  },
+  "gameHisto": {
+    "Win": "胜利",
+    "Lose": "失败"
+  },
+  "header": {
+    "greetings": "晚上好"
+  },
+  "friends": {
+    "friends": "朋友",
+    "friend": "朋友",
+    "play": "立即玩",
+    "removeFriend": "移除朋友",
+    "blockFriend": "屏蔽朋友",
+    "chat": "聊天"
+  },
+  "chat": {
+    "chat": "聊天",
+    "send": "发送",
+    "message": "消息",
+    "friends": "朋友",
+    "available": "在线",
+    "inTournament": "在比赛中",
+    "playing": "正在玩"
+  },
+  "sidebar": {
+    "Dashboard": "仪表板",
+    "home": "首页",
+    "game": "游戏",
+    "profile": "个人资料",
+    "Friends": "朋友",
+    "Chat": "聊天",
+    "settings": "设置",
+    "logout": "退出"
+  },
+  "placeholders":
+      {
+        "enterOldPassword": "输入旧密码",
+        "enterNewPassword": "输入新密码"
+
+      },
+ 
+  
+  "settings": {
+    "accsettings": "账户设置",
+    "chatSettings": "聊天设置",
+    "language": "语言",
+    "volume": "音量",
+    "resolution": "分辨率",
+    "notifications": "通知",
+    "changelanguage": "更改语言",
+    "invalidemail": "无效的电子邮件",
+    "invalidOldPassword": "无效的旧密码",
+    "invalidnewPassword": "无效的新密码",
+    "passwordChanged": "密码更改成功",
+    "passwordChangeFailed": "无法更改密码。请再试一次。",
+    "passwordsizemust": "密码长度必须至少为 6 个字符",
+    "passworddontmatch": "密码不匹配",
+        "fillallfields": "请填写所有字段",
+        "failedtochange": "无法更改密码。请再试一次。"
+    
+  },
+  "game": {
+    "game": "游戏",
+    "play": "玩",
+    "leaderboard": "排行榜",
+    "tournaments": "比赛",
+    "history": "历史",
+    "stats": "统计",
+    "local": "本地游戏"
+  },
+  
+  "search": {
+    "search": "搜索",
+    "searchF": "浏览所有玩家，找到下一个对手！",
+    "searchFriend": "搜索朋友",
+    "addFriend": "添加朋友",
+    "Explore": "浏览我们的玩家",
+    "find": "为下场比赛找到完美的对手！",
+    "Search": "搜索玩家",
+    "Add": "添加朋友",
+    "friendRequestSent": "好友请求已发送",
+    "alreadyFriends": "您已经是朋友",
+    "alrfriendRequestSent": "好友请求已发送",
+    "alrRequestRecieved": "好友请求已接收"
+
+  },
+  "frRequest": {
+    "friendRequest": "好友请求",
+    "No": "没有好友请求",
+    "accept": "接受",
+    "reject": "拒绝",
+    "sentYou": "给您发送了好友请求"
+  },
+  "profile": {
+    "profile": "个人资料",
+    "edit": "编辑",
+    "username": "用户名",
+    "email": "电子邮件",
+    "password": "密码",
+    "save": "保存",
+    "cancel": "取消",
+    "currentPassword": "当前密码",
+    "newPassword": "新密码",
+    "confirmPassword": "确认密码",
+    "bio": "个人简介",
+    "level": "等级"
+  },
+  "GameRequest": {
+    "gameRequest": "游戏请求",
+    "No": "没有游戏请求",
+    "accept": "接受",
+    "reject": "拒绝",
+    "sentYou": "给您发送了游戏请求"
+  },
+  "Otp": {
+    "resend": "重新发送",
+    "login": "登录"
+  },
+  "accountsettings": {
+    "accountSettings": "账户设置",
+    "changePassword": "更改密码",
+    "changeemail": "更改电子邮件",
+    "changetheme": "更改主题",
+    "enable2FA": "启用2FA",
+    "disable2FA": "禁用2FA",
+    "deleteAccount": "删除账户",
+    "blockedfriends": "已屏蔽的朋友",
+    "emailUpdated": "电子邮件更新成功！",
+    "emailUpdateFailed": "更新电子邮件失败。请再试一次。",
+    "errorOccurred": "发生了错误，请稍后再试。",
+    "enterNewEmail": "输入新的电子邮件",
+    "updating": "正在更新...",
+    "close": "关闭"
+  },
+  "event": {
+    "events": "事件",
+    "GameNight": "游戏之夜",
+    "descriptionGameNight": "加入我们，享受一个史诗般的游戏之夜！",
+    "Tournament": "比赛",
+    "descriptionTournament": "参加我们的年度比赛。",
+    "Holidaybash": "节日聚会",
+    "descriptionHolidaybash": "和我们一起庆祝节日季节！"
+  },
+  "blocked": {
+    "blocked": "已屏蔽",
+    "unblock": "取消屏蔽",
+    "block": "屏蔽",
+    "user": "用户",
+    "noblockedusers": "没有屏蔽用户"
+  },
+  "Stats": {
+    "GameDashboard": "游戏仪表板",
+    "stats": "游戏统计",
+    "wins": "胜利",
+    "loses": "失败",
+    "winrate": "胜率",
+    "totalGames": "总游戏",
+    "totalWins": "总胜利",
+    "totalLoses": "总失败"
+  },
+  "tournament": {
+    "localtournament": "本地比赛",
+    "start": "开始",
+    "exit": "退出",
+    "champion": "冠军",
+    "enter": "加入",
+    "enteryouralias": "输入你的别名"
+  },
+  "localgame": {
+    "choseyourboardcolor": "选择你的棋盘颜色",
+    "startmatch": "开始比赛",
+    "Wins": "胜利",
+    "restartmatch": "重新开始比赛",
+    "opponentAlias": "对手别名",
+    "playerAlias": "玩家别名"
+  },
+  "rgame": {
+    "gamenotfound": "游戏未找到",
+    "choseyourboardcolor": "选择你的棋盘颜色",
+    "Customizeyourtable": "自定义你的桌子",
+    "chosepaddle": "选择你的球拍颜色",
+    "choseball": "选择你的球颜色",
+    "startgame": "开始比赛",
+    "won": "赢得了比赛！",
+    "Youwon": "你赢了比赛！",
+    "Youlose": "你输了比赛！",
+    "playing": "正在玩",
+    "tournaments": "比赛",
+    "history": "历史",
+    "stats": "统计",
+    "spectate": "已启用观战模式",
+    "nowplaying": "正在进行中"
+  },
+  "resetPassword": {
+    "title": "重置密码",
+    "newPasswordPlaceholder": "新密码",
+    "confirmPasswordPlaceholder": "确认密码",
+    "resetButton": "重置密码",
+    "passwordMismatch": "密码不匹配",
+    "successMessage": "密码重置成功。",
+    "goToLogin": "去登录",
+    "invalidToken": "无效或过期的令牌。",
+    "errorOccurred": "重置密码时发生错误。"
+  },
+  "forgotPassword": {
+    "title": "忘记密码了？不用担心，我们帮你找回！",
+    "emailPlaceholder": "输入您的邮箱",
+    "sendButton": "发送邮件",
+    "checkEmail": "检查您的邮箱",
+    "emailSentMessage": "密码重置链接已发送至",
+    "checkInbox": "请检查您的收件箱。",
+    "errorSending": "发送重置链接时发生错误，请稍后再试。"
+  },
+  "bio":
+  {
+    "nameerr" : "名字太长，最大字符数为 10",
+    "toolong" : "Bio太长，最大字符数为 30"
+  }
+
+}
+

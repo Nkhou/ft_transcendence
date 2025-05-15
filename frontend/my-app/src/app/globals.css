@@ -1,0 +1,334 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('assets/fonts/Roboto-Regular.ttf') format('truetype');
+
+
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('assets/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'hamid';
+  src: url('assets/fonts/Harmond.otf') format('opentype');
+}
+@font-face {
+  font-family: 'walo';
+  src: url('assets/fonts/walo.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Roquila';
+  src: url('assets/fonts/Roquila.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'hossine';
+  src: url('assets/fonts/hossine.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'bilal';
+  src: url('assets/fonts/bilal.ttf') format('truetype');
+}
+@keyframes example-blur {
+  0% {
+    filter: blur(10px);
+  }
+  100% {
+    filter: blur(0);
+  }
+}
+.doughnut-chart-container {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.doughnut-chart-container:hover {
+  transform: scale(1.05); /* Slight zoom-in on hover */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+}
+
+.custom-blur {
+  animation: example-blur 2s ease-in-out;
+}
+
+@font-face {
+  font-family: 'Z';
+  src: url('assets/fonts/Z.otf');
+}
+@font-face {
+  font-family: 'molot';
+  src: url('assets/fonts/Molot\ regular.otf');
+}
+@font-face {
+  font-family: 'abelhid';
+  src: url('assets/fonts/abelhid.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'bilala';
+  src: url('assets/fonts/bilala.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ss';
+  src: url('assets/fonts/ss.otf') format('opentype');
+}
+@font-face {
+  font-family: 'ssb';
+  src: url('assets/fonts/AgrozzaDemoRegular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'mkzuina';
+  src: url('assets/fonts/zakaria.otf') format('truetype');
+}
+
+/* Moving Text Banners */
+.moving-banner {
+  width: screen ;
+  white-space: nowrap;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  z-index: 50; /* Ensure it's above other content */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.top-banner {
+  top: 0;
+  animation: moveText 10s linear infinite;
+}
+
+.bottom-banner {
+  bottom: 0;
+  animation: moveText 10s linear infinite; /* Move in opposite direction */
+}
+
+.hollow-text {
+  -webkit-text-stroke-width: 1px; /* Text stroke width */
+  -webkit-text-stroke-color: rgb(228, 228, 228); /* Text stroke color */
+  padding: 30px;
+  color :transparent;
+}
+
+@keyframes moveText {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+
+body[dir='rtl'] {
+  direction: rtl;
+}
+canvas {
+  pointer-events: none;
+}
+
+/* Custom Tailwind CSS */
+.text-neon-pink {
+  color: #ff00ff;
+  text-shadow: 0 0 8px #ff00ff, 0 0 16px #ff00ff, 0 0 24px #ff00ff;
+}
+
+.bg-gradient-to-r {
+  background: linear-gradient(to right, #0f0f0f, #1a1a1a, #0f0f0f);
+}
+
+.shadow-neon {
+  box-shadow: 0 0 8px #ff00ff, 0 0 16px #ff00ff, 0 0 24px #ff00ff;
+}
+
+.backdrop-blur-md {
+  backdrop-filter: blur(8px);
+}
+
+/* Add this to ensure font is applied */
+.font-[futuristic-font] {
+  font-family: 'FuturisticFont', sans-serif;
+}
+
+
+/* Keyframes */
+@keyframes rotate-slow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes leftright {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Container for the search component */
+#poda {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+
+
+input[name="text"] {
+  background-color: #010201;
+  color: white;
+  padding-left: 59px;
+  border-radius: 10px;
+  font-size: 18px;
+  width: 501px;
+  height: 56px;
+  outline: none;
+}
+
+#input-mask {
+  position: absolute;
+  top: 18px;
+  /* left: 70px; */
+  width: 502px;
+  height: 20px;
+  background: linear-gradient(to right, transparent, black);
+  pointer-events: none;
+}
+
+/* Pink highlight animation */
+#pink-mask {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  width: 200px;
+  height: 10px;
+  background-color: #cf30aa;
+  filter: blur(20px);
+  opacity: 0.8;
+  animation: leftright 6s ease-in-out infinite;
+}
+
+
+
+.text-gradient {
+  background: linear-gradient(to bottom,  #010201,#c50967, #9f0351,#670bc3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-gradient2 {
+  background: linear-gradient(to bottom,  #dcdfdc,#ff05ee, #8507f3,#ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-gradient1 {
+  background: linear-gradient(to bottom,  #dcdfdc,#3e1a9a, #8507f3,#ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-gradient3 {
+  background: linear-gradient(to bottom,  #ff02026f,#4800ff, #e815ff,#ca38ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.user-details {
+  background: linear-gradient(90deg, rgba(255,182,193,1) 0%, rgba(255,105,180,1) 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.icon-button {
+  padding: 0.5rem;
+  border-radius: 100%;
+  background: linear-gradient(135deg, transparent 0%, transparent);
+  /* box-shadow: 0px 5px 15px rgba(255,105,180, 0.3); */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.icon-button:hover {
+  box-shadow: 0px 10px 25px rgba(255,105,180, 0.6);
+}
+
+/* .text-gradient {
+  background: linear-gradient(90deg, #ff69b4, #ffb6c1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+} */
+
+.animate-text {
+  animation: text-animation 3s ease-in-out infinite;
+}
+
+@keyframes text-animation {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+
+@font-face {
+  font-family: 'FF';
+  src: url('./assets/fonts/DREAMS.ttf');
+}
+
+/* Sidebar styles for mobile */
+@media (max-width: 640px) {
+  .friend-list-sidebar {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 250px; /* Width of the sidebar */
+      height: 100%;
+      background-color: #111;
+      transform: translateX(100%); /* Hidden off-screen initially */
+      transition: transform 0.3s ease-in-out;
+      z-index: 999;
+  }
+
+  .friend-list-sidebar.show {
+      transform: translateX(0); /* Slide in */
+  }
+
+  .sidebar-toggle-btn {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      z-index: 1000; /* Make sure the button is on top */
+      padding: 0.5rem 1rem;
+      border-radius: 10px;
+  }
+}

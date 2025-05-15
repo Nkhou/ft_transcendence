@@ -1,0 +1,51 @@
+/* 
+.pageWrapper {
+
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  z-index: 0; 
+}
+
+.vortexBg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  z-index: 0;
+}
+
+.description {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  z-index: 0; 
+}
+
+.homeLink {
+  font-size: 1.2rem;
+  color: #0070f3;
+  text-decoration: none;
+  border: 1px solid #0070f3;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  z-index: 1; 
+}
+
+.homeLink:hover {
+  background-color: #0070f3;
+  color: white;
+} */

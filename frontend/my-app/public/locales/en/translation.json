@@ -1,0 +1,259 @@
+
+{
+    "welcome": "Welcome",
+    "stats": "StAts",
+    "gameHistory": "GAME HISTORY",
+    "globalRank": "Global RAnk",
+    "Settings": "Settings",
+    "movingBanner": "Upcoming Tournaments | Check Your Stats | Improve Your Game!",
+    "game_request_accepted" : "Game Request Accepted",
+    "game_request_failed" : "Game Request Failed",
+    "game_request_sent" : "Game Request Sent",
+    "game_request_rejected" : "Game Request Rejected",
+    "sending_game_request" : "Sending Game Request",
+    "both" : "Both players must enter their aliases.",
+    "ProfileUpdated" : "Profile Updated",
+    "news": {
+    "Community": "Community Spotlight",
+    "description" : "Meet the stars of our community! Learn about the achievements and stories of our top players.",
+    "play" : "Play Now",
+    "Tournament" : "Tournament"
+    },
+
+    "gameHisto": {
+      "Win": "Win",
+      "Lose": "Lose"
+    },
+    "header":
+    {
+      "greetings": "Good evening"
+   
+    },
+    "friends" :
+    {
+      "friends" : "Friends",
+      "friend": "Friend",
+      "play" :"Play Now",
+      "removeFriend": "Remove Friend",
+      "blockFriend": "Block Friend",
+      "chat": "Chat"
+    },
+    "chat": {
+      "chat": "Chat",
+      "send": "Send",
+      "message": "Message",
+      "friends": "Friends",
+      "available": "Available",
+      "inTournament": "In Tournament",
+      "playing": "Playing"
+
+    },
+    
+      "sidebar": {
+        "Dashboard": "Dashboard",
+        "home": "Home",
+        "game" : "Game",
+        "profile": "Profile",
+        "Friends": "Friends",
+        "Chat": "Chat",
+        "settings": "Settings",
+        "logout": "Logout"
+      },
+      "settings": {
+        "accsettings": "Account Settings",
+        "chatSettings": "Chat Settings",
+        "language": "Language",
+        "volume": "Volume",
+        "resolution": "Resolution",
+        "notifications": "Notifications",
+        "changelanguage": "Change Language ",
+        "invalidemail": "Invalid email",
+        "invalidOldPassword": "Invalid old password",
+        "invalidnewPassword": "Invalid new password",
+        "passwordChanged": "Password changed successfully",
+        "passwordChangeFailed": "Failed to change password. Please try again.",
+        "passwordsizemust": "Password size must be at least 6 characters",
+        "passworddontmatch": "Passwords don't match",
+        "fillallfields": "Please fill all fields",
+        "failedtochange": "Failed to change password. Please try again."
+      },
+      "game": {
+        "game": "Game",
+        "play": "Play",
+        "leaderboard": "Leaderboard",
+        "tournaments": "Tournaments",
+        "history": "History",
+        "stats": "Game Satistics",
+        "local": "Local Game"
+      },
+
+      "search": {
+        "search": "Search",
+        "searchF" : "Explore all our players and find your next opponent!",
+        "searchFriend": "Search  a Friend",
+        "addFriend": "Add Friend",
+        "Explore": "Explore our players ",
+        "find" : "Find the perfect opponent for your next game!",
+        "Search": "Search for a player",
+        "Add": "Add a Friend",
+        "friendRequestSent": "Friend Request Sent",
+        "alreadyFriends": "You are already friends",
+        "alrfriendRequestSent": "Friend Request already sent",
+        "alrRequestRecieved": "Friend Request already recieved"
+
+      },
+      "placeholders":
+      {
+        "enterOldPassword": "Enter Old Password",
+        "enterNewPassword": "Enter New Password"
+        
+
+      }
+      ,
+      "frRequest": {
+        "friendRequest": "Friend Requests",
+        "No" :"No Friend Requests",
+        "accept": "Accept",
+        "reject": "Reject",
+        "sentYou": "sent you a friend request"
+      },
+      "profile": {
+        "profile": "Profile",
+        "edit": "Edit",
+        "username": "Username",
+        "email": "Email",
+        "password": "Password",
+        "save": "Save",
+        "cancel" : "cancel",
+        "currentPassword": "Current Password",
+        "newPassword": "New Password",
+        "confirmPassword": "Confirm Password",
+        "bio": "Bio",
+        "level": "Level"
+      },
+      "GameRequest": {
+        "gameRequest": "Game Requests",
+        "No" :"No Game Requests",
+        "accept": "Accept",
+        "reject": "Reject",
+        "sentYou": "sent you a game request"
+      },
+      "Otp"
+      :{
+        "resend": "Resend",
+        "login": "Login"
+      },
+      "accountsettings": {
+        "accountSettings": "Account Settings",
+        "changePassword": "Change Password",
+        "changeemail": "Change Email",
+        "changetheme": "Change Theme",
+        "enable2FA": "Enable 2FA",
+        "disable2FA": "Disable 2FA",
+        "deleteAccount": "Delete Account",
+        "blockedfriends": "Blocked Friends",
+      "emailUpdated": "Email updated successfully!",
+      "emailUpdateFailed": "Failed to update email. Please try again.",
+      "errorOccurred": "An error occurred. Please try again later.",
+      "enterNewEmail": "Enter New email",
+      "updating": "Updating...",
+      "close": "Close"
+      },
+      "event": {
+        "events": "Events",
+        "GameNight": "Game Night",
+        "descriptionGameNight": "Join us for an epic game night!",
+        "Tournament": "Tournament",
+        "descriptionTournament": "Participate in our annual tournament.",
+        "Holidaybash": "Holiday Bash",
+        "descriptionHolidaybash": "Celebrate the season with us!"
+        
+      },
+      "blocked": {
+        "blocked": "Blocked",
+        "unblock": "Unblock",
+        "block": "Block",
+        "user": "User",
+        "noblockedusers": "No blocked users"
+      },
+      "Stats": {
+        "GameDashboard": "Game Dashboard",
+        "stats": "Game Stats",
+        "wins": "Wins",
+        "loses": "Loses",
+        "winrate": "Winrate",
+        "totalGames": "Total Games",
+        "totalWins": "Total Wins",
+        "totalLoses": "Total Loses"
+      },
+      "tournament":{
+        "localtournament": "Local Tournament",
+        "start": "Start",
+        "exit": "Exit",
+        "champion": "Champion",
+        "enter": "Enter",
+        "enteryouralias": "Enter your alias"
+      },
+      "localgame": {
+        "choseyourboardcolor": "Choose your board's color",
+        "startmatch": "Start Match",
+        "Wins": "Wins",
+        "restartmatch": "Restart Match",
+        "opponentAlias": "Opponent Alias",
+        "playerAlias": "Player Alias"
+       },
+       "rgame":
+       {
+        "gamenotfound": "Game not found",
+          "choseyourboardcolor": "Choose your board's color",
+          "Customizeyourtable": "Customize your table",
+          "chosepaddle" : "Choose your paddle 's color",
+          "choseball" : "Choose your ball's color",
+          "startgame": "Start Match",
+          "won": "won the game!",
+          "Youwon": "You won the game!",
+          "Youlose": "You lose the game!",
+          "playing": "Playing",
+          "tournaments": "Tournaments",
+          "history": "History",
+          "stats": "Stats",
+          "spectate" : "Spectator mode enabled",
+          "nowplaying": "Now playing"
+        },
+  
+          "resetPassword": {
+            "title": "Reset Password",
+            "newPasswordPlaceholder": "New Password",
+            "confirmPasswordPlaceholder": "Confirm Password",
+            "resetButton": "Reset Password",
+            "passwordMismatch": "Passwords do not match",
+            "successMessage": "Password reset successfully.",
+            "goToLogin": "Go to Login",
+            "invalidToken": "Invalid or expired token.",
+            "errorOccurred": "An error occurred while resetting the password."
+          },
+
+            "forgotPassword": {
+              "title": "Forgotten Password? Don't worry, we got you!",
+              "emailPlaceholder": "Enter your email",
+              "sendButton": "Send Email",
+              "checkEmail": "Check Your Email",
+              "emailSentMessage": "A password reset link has been sent to",
+              "checkInbox": "Please check your inbox.",
+              "errorSending": "There was an error sending the reset link. Please try again later."
+            },
+
+            "bio":
+            {
+              "nameerr" : "Name Too long Max char is 10",
+              "toolong" : "Bio Too long max char is 30"
+              
+            }
+
+
+        
+       
+
+
+  }
+  

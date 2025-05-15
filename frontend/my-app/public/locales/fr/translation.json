@@ -1,0 +1,237 @@
+{
+  "welcome": "Bienvenue",
+  "stats": "Statistiques",
+  "gameHistory": "Historique des jeux",
+  "globalRank": "Classement mondial",
+  "Settings": "Paramètres",
+  "movingBanner": "Tournois à venir | Consultez vos statistiques | Améliorez votre jeu!",
+  "game_request_accepted": "Demande de jeu acceptée",
+  "game_request_failed": "Demande de jeu échouée",
+  "game_request_sent": "Demande de jeu envoyée",
+  "game_request_rejected": "Demande de jeu rejetée",
+  "sending_game_request": "Envoi de la demande de jeu",
+  "both": "Les deux joueurs doivent entrer leurs alias.",
+  "ProfileUpdated": "Profil mis à jour",
+  "news": {
+    "Community": "Spotlight de la communauté",
+    "description": "Rencontrez les stars de notre communauté ! Découvrez les réalisations et les histoires de nos meilleurs joueurs.",
+    "play": "Jouer maintenant",
+    "Tournament": "Tournoi"
+  },
+  "gameHisto": {
+    "Win": "Gagner",
+    "Lose": "Perdre"
+  },
+  "header": {
+    "greetings": "Bonsoir"
+  },
+  "friends": {
+    "friends": "Amis",
+    "friend": "Ami",
+    "play": "Jouer maintenant",
+    "removeFriend": "Supprimer l'ami",
+    "blockFriend": "Bloquer l'ami",
+    "chat": "Chat"
+  },
+  "chat": {
+    "chat": "Chat",
+    "send": "Envoyer",
+    "message": "Message",
+    "friends": "Amis",
+    "available": "Disponible",
+    "inTournament": "Dans le tournoi",
+    "playing": "En jeu"
+  },
+  "sidebar": {
+    "Dashboard": "Tableau de bord",
+    "home": "Accueil",
+    "game": "Jeu",
+    "profile": "Profil",
+    "Friends": "Amis",
+    "Chat": "Chat",
+    "settings": "Paramètres",
+    "logout": "Se déconnecter"
+  },
+  "settings": {
+    "accsettings": "Paramètres du compte",
+    "chatSettings": "Paramètres du chat",
+    "language": "Langue",
+    "volume": "Volume",
+    "resolution": "Résolution",
+    "notifications": "Notifications",
+    "changelanguage": "Changer la langue",
+    "invalidemail": "E-mail invalide",
+        "invalidOldPassword": "Ancien mot de passe invalide",
+        "invalidnewPassword": "Nouveau mot de passe invalide",
+        "passwordChanged": "Mot de passe changé avec succès !",
+        "passwordChangeFailed": "Échec du changement de mot de passe. Veuillez réessayer.",
+        "passwordsizemust": "La taille du mot de passe doit être de 6 caractères",
+        "passworddontmatch": "Les mots de passe ne correspondent pas",
+        "fillallfields": "Veuillez remplir tous les champs",
+        "failedtochange": "Échec du changement de mot de passe. Veuillez réessayer."
+
+  },
+  "placeholders":
+  {
+    "enterOldPassword": "Entrez l'ancien mot de passe",
+    "enterNewPassword": "Entrez le nouveau mot de passe"
+
+  },
+  "game": {
+    "game": "Jeu",
+    "play": "Jouer",
+    "leaderboard": "Classement",
+    "tournaments": "Tournois",
+    "history": "Historique",
+    "stats": "Statistiques",
+    "local" : "Jeu local"
+  },
+
+  "search": {
+    "search": "Rechercher",
+    "searchF": "Explorez tous nos joueurs et trouvez votre prochain adversaire !",
+    "searchFriend": "Rechercher un ami",
+    "addFriend": "Ajouter un ami",
+    "Explore": "Explorez nos joueurs",
+    "find": "Trouvez l'adversaire parfait pour votre prochain jeu !",
+    "Search": "Rechercher un joueur",
+    "Add": "Ajouter un ami",
+    "friendRequestSent": "Demande d'ami envoyée",
+    "alreadyFriends": "Vous êtes déjà amis",
+    "alrfriendRequestSent": "Demande d'ami déjà envoyée",
+    "alrRequestRecieved": "Demande d'ami déjà reçue"
+  },
+  "frRequest": {
+    "friendRequest": "Demandes d'amis",
+    "No": "Pas de demandes d'amis",
+    "accept": "Accepter",
+    "reject": "Rejeter",
+    "sentYou": "vous a envoyé une demande d'ami"
+  },
+  "profile": {
+    "profile": "Profil",
+    "edit": "Modifier",
+    "username": "Nom d'utilisateur",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "save": "Sauvegarder",
+    "cancel": "Annuler",
+    "currentPassword": "Mot de passe actuel",
+    "newPassword": "Nouveau mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "bio": "Bio",
+    "level": "Niveau"
+  },
+  "GameRequest": {
+    "gameRequest": "Demandes de jeu",
+    "No": "Pas de demandes de jeu",
+    "accept": "Accepter",
+    "reject": "Rejeter",
+    "sentYou": "vous a envoyé une demande de jeu"
+  },
+  "Otp": {
+    "resend": "Renvoyer",
+    "login": "Se connecter"
+  },
+  "accountsettings": {
+    "accountSettings": "Paramètres du compte",
+    "changePassword": "Changer le mot de passe",
+    "changeemail": "Changer l'e-mail",
+    "changetheme": "Changer le thème",
+    "enable2FA": "Activer 2FA",
+    "disable2FA": "Désactiver 2FA",
+    "deleteAccount": "Supprimer le compte",
+    "blockedfriends": "Amis bloqués",
+    "emailUpdated": "E-mail mis à jour avec succès !",
+    "emailUpdateFailed": "Échec de la mise à jour de l'e-mail. Veuillez réessayer.",
+    "errorOccurred": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+    "enterNewEmail": "Entrez le nouvel e-mail",
+    "updating": "Mise à jour...",
+    "close": "Fermer"
+  },
+  "event": {
+    "events": "Événements",
+    "GameNight": "Soirée jeu",
+    "descriptionGameNight": "Rejoignez-nous pour une soirée de jeu épique !",
+    "Tournament": "Tournoi",
+    "descriptionTournament": "Participez à notre tournoi annuel.",
+    "Holidaybash": "Fête des vacances",
+    "descriptionHolidaybash": "Célébrez la saison avec nous !"
+  },
+  "blocked": {
+    "blocked": "Bloqué",
+    "unblock": "Débloquer",
+    "block": "Bloquer",
+    "user": "Utilisateur",
+    "noblockedusers": "Pas d'utilisateurs bloqués"
+  },
+  "Stats": {
+    "GameDashboard": "Tableau de bord de jeu",
+    "stats": "Statistiques de jeu",
+    "wins": "Victoires",
+    "loses": "Perdants",
+    "winrate": "Taux de victoire",
+    "totalGames": "Jeux totaux",
+    "totalWins": "Victoires totales",
+    "totalLoses": "Pertes totales"
+  },
+  "tournament": {
+    "localtournament": "Tournoi local",
+    "start": "Commencer",
+    "exit": "Quitter",
+    "champion": "Champion",
+    "enter": "Entrer",
+    "enteryouralias": "Entrez votre alias"
+  },
+  "localgame": {
+    "choseyourboardcolor": "Choisissez la couleur de votre planche",
+    "startmatch": "Commencer le match",
+    "Wins": "Victoires",
+    "restartmatch": "Redémarrer le match",
+    "opponentAlias": "Alias de l'adversaire",
+    "playerAlias": "Alias du joueur"
+  },
+  "rgame": {
+    "gamenotfound": "Jeu non trouvé",
+    "choseyourboardcolor": "Choisissez la couleur de votre planche",
+    "Customizeyourtable": "Colorez votre table",
+    "chosepaddle": "Choisissez la couleur de votre palette",
+    "choseball": "Choisissez la couleur de votre balle",
+    "startgame": "Commencer le match",
+    "won": "a gagné le jeu !",
+    "Youwon": "Vous avez gagné le jeu !",
+    "Youlose": "Vous avez perdu le jeu !",
+    "playing": "En jeu",
+    "tournaments": "Tournois",
+    "history": "Historique",
+    "stats": "Statistiques",
+    "spectate": "Mode spectateur activé",
+    "nowplaying": "En cours"
+  },
+  "resetPassword": {
+    "title": "Réinitialiser le mot de passe",
+    "newPasswordPlaceholder": "Nouveau mot de passe",
+    "confirmPasswordPlaceholder": "Confirmer le mot de passe",
+    "resetButton": "Réinitialiser le mot de passe",
+    "passwordMismatch": "Les mots de passe ne correspondent pas",
+    "successMessage": "Mot de passe réinitialisé avec succès.",
+    "goToLogin": "Aller à la connexion",
+    "invalidToken": "Jeton invalide ou expiré.",
+    "errorOccurred": "Une erreur s'est produite lors de la réinitialisation du mot de passe."
+  },
+  "forgotPassword": {
+    "title": "Mot de passe oublié ? Pas de souci, nous avons ce qu'il vous faut !",
+    "emailPlaceholder": "Entrez votre email",
+    "sendButton": "Envoyer l'email",
+    "checkEmail": "Vérifiez votre email",
+    "emailSentMessage": "Un lien pour réinitialiser votre mot de passe a été envoyé à",
+    "checkInbox": "Veuillez vérifier votre boîte de réception.",
+    "errorSending": "Une erreur est survenue lors de l'envoi du lien. Veuillez réessayer plus tard."
+  },
+  "bio":
+  {
+    "nameerr" : "Nom trop long Max char est 10",
+    "toolong" : "Bio trop long max char est 30"
+    
+  }
+}

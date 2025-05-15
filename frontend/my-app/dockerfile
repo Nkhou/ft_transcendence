@@ -1,0 +1,24 @@
+FROM node:18
+
+
+
+# Copy package.json and package-lock.json
+RUN rm -rf node_modules package-lock.json
+COPY package*.json ./
+RUN npm cache clean --force
+
+# Install dependencies
+RUN if ! command -v yarn >/dev/null 2>&1; then npm install -g yarn; fi
+
+RUN yarn install
+
+
+
+# Copy the rest of the application code
+COPY . .
+
+# Expose the port your app will run on (adjust as needed)
+RUN npm run build
+EXPOSE 3000
+
+CMD ["npm", "start"]

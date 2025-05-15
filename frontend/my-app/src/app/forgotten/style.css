@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*
+{
+    margin:0;
+    padding :0%;
+    box-sizing: border-box;
+}
+.page-container {
+    position: relative;
+  }
+  
+  #me {
+    z-index: 2; 
+    font-family: 'abelhid';
+  }
+  
+  .tusaisdeja 
+  {
+    display: flex;
+    justify-items: center;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .srfak{
+    z-index: 2;
+  }
+
+  .gold-text {
+    background: linear-gradient(45deg, #FFD700, #FFC107, #FF9800);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    text-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+  }
+  
+  .gold-border {
+    border-image-source: linear-gradient(45deg, #FFD700, #FFC107, #FF9800);
+    border-image-slice: 1;
+  }
+  
+  .gold-glow {
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.8), 0 0 20px rgba(255, 215, 0, 0.6);
+  }
+  

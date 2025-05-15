@@ -1,0 +1,240 @@
+{
+  "welcome": "ようこそ",
+  "stats": "統計",
+  "gameHistory": "ゲーム履歴",
+  "globalRank": "グローバルランキング",
+  "Settings": "設定",
+  "movingBanner": "次回のトーナメント | あなたの統計を確認 | ゲームを改善しよう！",
+  "game_request_accepted": "ゲームリクエストが承認されました",
+  "game_request_failed": "ゲームリクエストに失敗しました",
+  "game_request_sent": "ゲームリクエストが送信されました",
+  "game_request_rejected": "ゲームリクエストが拒否されました",
+  "sending_game_request": "ゲームリクエストを送信しています",
+  "both": "両方のプレイヤーがエイリアスを入力する必要があります。",
+  "ProfileUpdated": "プロフィールが更新されました",
+  "news": {
+    "Community": "コミュニティスポットライト",
+    "description": "私たちのコミュニティのスターたちを紹介します！最高のプレイヤーたちの実績とストーリーをチェックしてください。",
+    "play": "今すぐプレイ",
+    "Tournament": "トーナメント"
+  },
+  "gameHisto": {
+    "Win": "勝利",
+    "Lose": "敗北"
+  },
+  "header": {
+    "greetings": "こんばんは"
+  },
+  "friends": {
+    "friends": "友達",
+    "friend": "友達",
+    "play": "今すぐプレイ",
+    "removeFriend": "友達を削除",
+    "blockFriend": "友達をブロック",
+    "chat": "チャット"
+  },
+  "chat": {
+    "chat": "チャット",
+    "send": "送信",
+    "message": "メッセージ",
+    "friends": "友達",
+    "available": "オンライン",
+    "inTournament": "トーナメント中",
+    "playing": "プレイ中"
+  },
+  "sidebar": {
+    "Dashboard": "ダッシュボード",
+    "home": "ホーム",
+    "game": "ゲーム",
+    "profile": "プロフィール",
+    "Friends": "友達",
+    "Chat": "チャット",
+    "settings": "設定",
+    "logout": "ログアウト"
+  },
+  "settings": {
+    "accsettings": "アカウント設定",
+    "chatSettings": "チャット設定",
+    "language": "言語",
+    "volume": "音量",
+    "resolution": "解像度",
+    "notifications": "通知",
+    "changelanguage": "言語を変更",
+    "invalidemail": "無効なメール",
+        "invalidOldPassword": "無効な古いパスワード",
+        "invalidnewPassword": "無効な新しいパスワード",
+        "passwordChanged": "パスワードが変更されました",
+        "passwordChangeFailed": "パスワードの変更に失敗しました。再試行してください。",
+        "passwordsizemust": "パスワードは8文字以上である必要があります",
+        "passworddontmatch": "パスワードが一致しません",
+        "fillallfields":  "すべてのフィールドを入力してください",
+        "failedtochange":   "パスワードの変更に失敗しました。再試行してください。"
+        
+  },
+
+  "placeholders":
+  {
+    "enterOldPassword": "古いパスワードを入力",
+    "enterNewPassword": "新しいパスワードを入力"
+
+  },
+  "game": {
+    "game": "ゲーム",
+    "play": "プレイ",
+    "leaderboard": "リーダーボード",
+    "tournaments": "トーナメント",
+    "history": "履歴",
+    "stats": "統計",
+    "local": "ローカルゲーム"
+  },
+
+
+  "search": {
+    "search": "検索",
+    "searchF": "すべてのプレイヤーを検索して次の対戦相手を見つけよう！",
+    "searchFriend": "友達を検索",
+    "addFriend": "友達を追加",
+    "Explore": "プレイヤーを探索",
+    "find": "次の試合に最適な相手を見つけよう！",
+    "Search": "プレイヤーを検索",
+    "Add": "友達を追加",
+    "friendRequestSent": "友達リクエストが送信されました",
+    "alreadyFriends": "すでに友達です",
+    "alrfriendRequestSent": "友達リクエストはすでに送信されています",
+    "alrRequestRecieved": "友達リクエストはすでに受信されています"
+
+  },
+  "frRequest": {
+    "friendRequest": "フレンドリクエスト",
+    "No": "フレンドリクエストなし",
+    "accept": "承認",
+    "reject": "拒否",
+    "sentYou": "あなたにフレンドリクエストを送りました"
+  },
+  "profile": {
+    "profile": "プロフィール",
+    "edit": "編集",
+    "username": "ユーザー名",
+    "email": "メール",
+    "password": "パスワード",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "currentPassword": "現在のパスワード",
+    "newPassword": "新しいパスワード",
+    "confirmPassword": "新しいパスワードの確認",
+    "bio": "自己紹介",
+    "level": "レベル"
+  },
+  "GameRequest": {
+    "gameRequest": "ゲームリクエスト",
+    "No": "ゲームリクエストなし",
+    "accept": "承認",
+    "reject": "拒否",
+    "sentYou": "あなたにゲームリクエストを送りました"
+  },
+  "Otp": {
+    "resend": "再送信",
+    "login": "ログイン"
+  },
+  "accountsettings": {
+    "accountSettings": "アカウント設定",
+    "changePassword": "パスワードを変更",
+    "changeemail": "メールを変更",
+    "changetheme": "テーマを変更",
+    "enable2FA": "2FAを有効にする",
+    "disable2FA": "2FAを無効にする",
+    "deleteAccount": "アカウントを削除",
+    "blockedfriends": "ブロックした友達",
+    "emailUpdated": "メールが更新されました！",
+    "emailUpdateFailed": "メールの更新に失敗しました。再試行してください。",
+    "errorOccurred": "エラーが発生しました。後で再試行してください。",
+    "enterNewEmail": "新しいメールを入力",
+    "updating": "更新中...",
+    "close": "閉じる"
+  },
+  "event": {
+    "events": "イベント",
+    "GameNight": "ゲームナイト",
+    "descriptionGameNight": "私たちと一緒にエピックなゲームナイトを楽しんでください！",
+    "Tournament": "トーナメント",
+    "descriptionTournament": "私たちの年次トーナメントに参加してください。",
+    "Holidaybash": "ホリデーパーティー",
+    "descriptionHolidaybash": "一緒にホリデーシーズンをお祝いしましょう！"
+  },
+  "blocked": {
+    "blocked": "ブロック済み",
+    "unblock": "ブロック解除",
+    "block": "ブロック",
+    "user": "ユーザー",
+    "noblockedusers": "ブロックされたユーザーはありません"
+  },
+  "Stats": {
+    "GameDashboard": "ゲームダッシュボード",
+    "stats": "ゲーム統計",
+    "wins": "勝利",
+    "loses": "敗北",
+    "winrate": "勝率",
+    "totalGames": "総ゲーム数",
+    "totalWins": "総勝利",
+    "totalLoses": "総敗北"
+  },
+  "tournament": {
+    "localtournament": "ローカルトーナメント",
+    "start": "開始",
+    "exit": "終了",
+    "champion": "チャンピオン",
+    "enter": "参加",
+    "enteryouralias": "エイリアスを入力"
+  },
+  "localgame": {
+    "choseyourboardcolor": "ボードの色を選択",
+    "startmatch": "試合開始",
+    "Wins": "勝利",
+    "restartmatch": "試合を再開",
+    "opponentAlias": "対戦相手のエイリアス",
+    "playerAlias": "プレイヤーエイリアス"
+  },
+  "rgame": {
+    "gamenotfound": "ゲームが見つかりません",
+    "choseyourboardcolor": "ボードの色を選択",
+    "Customizeyourtable": "テーブルをカスタマイズ",
+    "chosepaddle": "パドルの色を選択",
+    "choseball": "ボールの色を選択",
+    "startgame": "試合開始",
+    "won": "試合に勝利！",
+    "Youwon": "あなたが試合に勝ちました！",
+    "Youlose": "あなたは試合に負けました！",
+    "playing": "プレイ中",
+    "tournaments": "トーナメント",
+    "history": "履歴",
+    "stats": "統計",
+    "spectate": "観戦モードが有効",
+    "nowplaying": "現在プレイ中"
+  },
+  "resetPassword": {
+    "title": "パスワードをリセット",
+    "newPasswordPlaceholder": "新しいパスワード",
+    "confirmPasswordPlaceholder": "確認用パスワード",
+    "resetButton": "パスワードをリセット",
+    "passwordMismatch": "パスワードが一致しません",
+    "successMessage": "パスワードがリセットされました。",
+    "goToLogin": "ログインに進む",
+    "invalidToken": "無効または期限切れのトークンです。",
+    "errorOccurred": "パスワードのリセット中にエラーが発生しました。"
+  },
+  "forgotPassword": {
+    "title": "パスワードを忘れましたか？心配しないで、私たちが手伝います！",
+    "emailPlaceholder": "メールアドレスを入力",
+    "sendButton": "メールを送信",
+    "checkEmail": "メールを確認",
+    "emailSentMessage": "パスワードリセットリンクが送信されました",
+    "checkInbox": "受信トレイを確認してください。",
+    "errorSending": "リンクの送信中にエラーが発生しました。後で再試行してください。"
+  },
+  "bio":
+  {
+    "nameerr" : "名前が長すぎます。最大文字数は10文字です",
+    "toolong" : "バイオが長すぎます。最大文字数は30文字です"
+  }
+
+}

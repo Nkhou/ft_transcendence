@@ -1,0 +1,4 @@
+
+CREATE ROLE postgres WITH LOGIN PASSWORD 'postgres';
+CREATE DATABASE users WITH OWNER postgres;
+GRANT ALL PRIVILEGES ON DATABASE users TO postgres;

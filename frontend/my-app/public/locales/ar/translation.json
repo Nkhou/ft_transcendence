@@ -1,0 +1,237 @@
+{
+  "welcome": "أهلاً وسهلاً",
+  "stats": "الإحصائيات",
+  "gameHistory": "تاريخ المباريات",
+  "globalRank": "الترتيب العالمي",
+  "Settings": "الإعدادات",
+  "movingBanner": "بطولات قادمة | تحقق من إحصائياتك | حسن من مستواك!",
+  "game_request_accepted": "تم قبول طلب اللعبة",
+  "game_request_failed": "فشل طلب اللعبة",
+  "game_request_sent": "تم إرسال طلب اللعبة",
+  "game_request_rejected": "تم رفض طلب اللعبة",
+  "sending_game_request": "إرسال طلب اللعبة",
+  "both": "يجب على اللاعبين إدخال أسمائهم المستعارة.",
+  "ProfileUpdated": "تم تحديث الملف الشخصي",
+  "news": {
+    "Community": "أضواء المجتمع",
+    "description": "تعرف على نجوم مجتمعنا! تعرف على إنجازات وقصص أفضل اللاعبين لدينا.",
+    "play": "العب الآن",
+    "Tournament": "بطولة"
+  },
+  "gameHisto": {
+    "Win": "فوز",
+    "Lose": "خسارة"
+  },
+  "header": {
+    "greetings": "مساء الخير"
+  },
+  "friends": {
+    "friends": "الأصدقاء",
+    "friend": "صديق",
+    "play": "العب الآن",
+    "removeFriend": "إزالة صديق",
+    "blockFriend": "حظر صديق",
+    "chat": "دردشة"
+  },
+  "chat": {
+    "chat": "دردشة",
+    "send": "إرسال",
+    "message": "رسالة",
+    "friends": "الأصدقاء",
+    "available": "متاح",
+    "inTournament": "في البطولة",
+    "playing": "يلعب"
+  },
+
+  "placeholders":
+      {
+        "enterOldPassword": "أدخل كلمة المرور القديمة",
+        "enterNewPassword": "أدخل كلمة المرور الجديدة"
+
+      },
+  "sidebar": {
+    "Dashboard": "اللوحة الرئيسية",
+    "home": "الصفحة الرئيسية",
+    "game": "اللعبة",
+    "profile": "الملف الشخصي",
+    "Friends": "الأصدقاء",
+    "Chat": "الدردشة",
+    "settings": "الإعدادات",
+    "logout": "تسجيل الخروج"
+  },
+  
+  "settings": {
+    "accsettings": "إعدادات الحساب",
+    "chatSettings": "إعدادات الدردشة",
+    "language": "اللغة",
+    "volume": "الصوت",
+    "resolution": "الدقة",
+    "notifications": "الإشعارات",
+    "changelanguage": "تغيير اللغة",
+    "invalidemail": "البريد الإلكتروني غير صالح",
+    "invalidOldPassword": "كلمة المرور القديمة غير صالحة",
+    "invalidnewPassword" : "كلمة المرور الجديدة غير صالحة",
+    "passwordChanged": "تم تغيير كلمة المرور بنجاح",
+    "passwordChangeFailed": "فشل تغيير كلمة المرور. يرجى المحاولة مرة أخرى.",
+    "passwordsizemust": "يجب أن تكون كلمة المرور بحد أدنى 6 أحرف",
+    "passworddontmatch": "كلمات المرور غير متطابقة",
+    "fillallfields": "يرجى ملء جميع الحقول",
+    "failedtochange": "فشل تغيير كلمة المرور. يرجى المحاولة مرة أخرى."
+  },
+  "game": {
+    "game": "لعبة",
+    "play": "العب",
+    "leaderboard": "لوحة المتصدرين",
+    "tournaments": "البطولات",
+    "history": "التاريخ",
+    "stats": "الإحصائيات",
+    "local": "لعبة محلية"
+  },
+  "search": {
+    "search": "بحث",
+    "searchF": "استكشف جميع اللاعبين وابحث عن خصمك التالي!",
+    "searchFriend": "ابحث عن صديق",
+    "addFriend": "أضف صديق",
+    "Explore": "استكشف لاعبينا",
+    "find": "ابحث عن الخصم المثالي لمباراةك القادمة!",
+    "Search": "ابحث عن لاعب",
+    "Add": "أضف صديق",
+    "friendRequestSent": "تم إرسال طلب الصداقة",
+    "alreadyFriends": "أنتما بالفعل أصدقاء",
+    "alrfriendRequestSent": "تم إرسال طلب الصداقة بالفعل",
+    "alrRequestRecieved": "تم استلام طلب الصداقة بالفعل"
+  },
+  "frRequest": {
+    "friendRequest": "طلبات الصداقة",
+    "No": "لا توجد طلبات صداقة",
+    "accept": "قبول",
+    "reject": "رفض",
+    "sentYou": "أرسل لك طلب صداقة"
+  },
+  "profile": {
+    "profile": "الملف الشخصي",
+    "edit": "تعديل",
+    "username": "اسم المستخدم",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "currentPassword": "كلمة المرور الحالية",
+    "newPassword": "كلمة المرور الجديدة",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "bio": "السيرة الذاتية",
+    "level": "المستوى"
+  },
+  "GameRequest": {
+    "gameRequest": "طلبات اللعبة",
+    "No": "لا توجد طلبات لعبة",
+    "accept": "قبول",
+    "reject": "رفض",
+    "sentYou": "أرسل لك طلب لعبة"
+  },
+  "Otp": {
+    "resend": "إعادة إرسال",
+    "login": "تسجيل الدخول"
+  },
+  "accountsettings": {
+    "accountSettings": "إعدادات الحساب",
+    "changePassword": "تغيير كلمة المرور",
+    "changeemail": "تغيير البريد الإلكتروني",
+    "changetheme": "تغيير السمة",
+    "enable2FA": "تمكين التحقق الثنائي",
+    "disable2FA": "تعطيل التحقق الثنائي",
+    "deleteAccount": "حذف الحساب",
+    "blockedfriends": "الأصدقاء المحظورين",
+    "emailUpdated": "تم تحديث البريد الإلكتروني بنجاح!",
+    "emailUpdateFailed": "فشل تحديث البريد الإلكتروني. يرجى المحاولة مرة أخرى.",
+    "errorOccurred": "حدث خطأ. يرجى المحاولة لاحقًا.",
+    "enterNewEmail": "أدخل البريد الإلكتروني الجديد",
+    "updating": "جاري التحديث...",
+    "close": "إغلاق"
+  },
+  "event": {
+    "events": "الأحداث",
+    "GameNight": "ليلة اللعبة",
+    "descriptionGameNight": "انضم إلينا لليلة لعبة ملحمية!",
+    "Tournament": "بطولة",
+    "descriptionTournament": "شارك في بطولتنا السنوية.",
+    "Holidaybash": "احتفال العطلة",
+    "descriptionHolidaybash": "احتفل معنا بموسم العطلات!"
+  },
+  "blocked": {
+    "blocked": "محظور",
+    "unblock": "إلغاء الحظر",
+    "block": "حظر",
+    "user": "مستخدم",
+    "noblockedusers": "لا يوجد مستخدمين محظورين"
+  },
+  "Stats": {
+    "GameDashboard": "لوحة التحكم في اللعبة",
+    "stats": "إحصائيات اللعبة",
+    "wins": "الانتصارات",
+    "loses": "الخسائر",
+    "winrate": "معدل الانتصار",
+    "totalGames": "إجمالي المباريات",
+    "totalWins": "إجمالي الانتصارات",
+    "totalLoses": "إجمالي الخسائر"
+  },
+  "tournament": {
+    "localtournament": "بطولة محلية",
+    "start": "ابدأ",
+    "exit": "خروج",
+    "champion": "البطل",
+    "enter": "دخول",
+    "enteryouralias": "أدخل اسمك المستعار"
+  },
+  "localgame": {
+    "choseyourboardcolor": "اختر لون لوحتك",
+    "startmatch": "ابدأ المباراة",
+    "Wins": "الانتصارات",
+    "restartmatch": "إعادة تشغيل المباراة",
+    "opponentAlias": "اسم خصمك",
+    "playerAlias": "اسم اللاعب"
+  },
+  "rgame": {
+    "gamenotfound": "لم يتم العثور على اللعبة",
+    "choseyourboardcolor": "اختر لون لوحتك",
+    "Customizeyourtable": "خصص طاولتك",
+    "chosepaddle": "اختر لون مضربك",
+    "choseball": "اختر لون الكرة",
+    "startgame": "ابدأ المباراة",
+    "won": "فاز باللعبة!",
+    "Youwon": "لقد فزت باللعبة!",
+    "Youlose": "لقد خسرت اللعبة!",
+    "playing": "العب",
+    "tournaments": "البطولات",
+    "history": "التاريخ",
+    "stats": "الإحصائيات",
+    "spectate": "وضع المتفرج مفعل",
+    "nowplaying": "الآن في اللعب"
+  },
+  "resetPassword": {
+    "title": "إعادة تعيين كلمة المرور",
+    "newPasswordPlaceholder": "كلمة المرور الجديدة",
+    "confirmPasswordPlaceholder": "تأكيد كلمة المرور",
+    "resetButton": "إعادة تعيين كلمة المرور",
+    "passwordMismatch": "كلمات المرور غير متطابقة",
+    "successMessage": "تم إعادة تعيين كلمة المرور بنجاح.",
+    "goToLogin": "اذهب إلى تسجيل الدخول",
+    "invalidToken": "رمز غير صالح أو منتهي الصلاحية.",
+    "errorOccurred": "حدث خطأ أثناء إعادة تعيين كلمة المرور."
+  },
+  "forgotPassword": {
+    "title": "نسيت كلمة المرور؟ لا تقلق، نحن هنا لمساعدتك!",
+    "emailPlaceholder": "أدخل بريدك الإلكتروني",
+    "sendButton": "إرسال البريد الإلكتروني",
+    "checkEmail": "تحقق من بريدك الإلكتروني",
+    "emailSentMessage": "تم إرسال رابط إعادة تعيين كلمة المرور إلى",
+    "checkInbox": "يرجى التحقق من صندوق الوارد الخاص بك.",
+    "errorSending": "حدث خطأ أثناء إرسال الرابط. يرجى المحاولة مرة أخرى لاحقًا."
+  },
+  "bio":
+  {
+    "nameerr" : "الاسم طويل جداً الحد الأقصى للحروف هو 10",
+    "toolong" : "السيرة الذاتية طويلة جداً الحد الأقصى للحروف هو 30"
+    
+  }
+}

@@ -1,0 +1,66 @@
+.progress-circle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .progress-circle {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* For a perfect square */
+  }
+  
+  .circle-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 2.8;
+  }
+  
+  .circle {
+    fill: none;
+    stroke: #622137;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    transition: stroke-dasharray 1s ease-in-out;
+  }
+  
+  .circle-text {
+    fill: #622137;
+    font-family: Arial, sans-serif;
+    font-size: 0.5em;
+    text-anchor: middle;
+    dominant-baseline: middle;
+  }
+  
+  .rate-label {
+    text-align: center;
+    font-size: 1.2em;
+    color: #622137;
+    margin-top: 0.5em;
+  }
+  
+  .game-stats {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 1em;
+    color: #622137;
+    text-align: center;
+  }
+  
+  .stat {
+    flex: 1;
+  }
+  
